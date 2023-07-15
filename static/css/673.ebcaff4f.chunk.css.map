@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/673.ebcaff4f.chunk.css","mappings":"AAAA,wBACE,eAAgB,CAChB,SACF,CAEA,4BACE,kBACF","sources":["components/TrendsList/TrendsList.module.css"],"sourcesContent":[".list {\n  list-style: none;\n  padding: 0;\n}\n\n.listItem {\n  margin-bottom: 10px;\n}\n"],"names":[],"sourceRoot":""}
