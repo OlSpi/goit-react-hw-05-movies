@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 
-import { Routes, Route, NavLink, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Loader from './Loader/Loader';
 import Header from './Header/Header';
 

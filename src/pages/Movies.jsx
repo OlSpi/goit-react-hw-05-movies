@@ -1,3 +1,4 @@
+import Loader from 'components/Loader/Loader';
 import SearchList from 'components/SearchList/SearchList';
 import SearchMovie from 'components/SearchMovie/SearchMovie';
 import { Container } from 'components/styled';
@@ -33,6 +34,8 @@ const Movies = () => {
 
   return (
     <>
+      {isLoading && <Loader />}
+      {error && <div>{error}</div>}
       <Container>
         <SearchMovie search={setSearchParams} />
         <SearchList movies={arrayMovies} />
