@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  margin: 0 auto;
+  max-width: 400px;
+}
+.input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(48, 65, 178);
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  cursor: pointer;
+}
