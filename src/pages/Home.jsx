@@ -30,11 +30,13 @@ const Home = () => {
       {isLoading && <Loader />}
       {error && <div>{error}</div>}
 
-      <Container>
-        <h2>Trending today</h2>
+      {!isLoading && trends && (
+        <Container>
+          <h2>Trending today</h2>
 
-        <TrendsList trends={trends} />
-      </Container>
+          <TrendsList trends={trends} />
+        </Container>
+      )}
     </>
   );
 };
