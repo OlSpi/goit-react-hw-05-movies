@@ -26,6 +26,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   color: #333;
   font-size: 16px;
+  font-weight: bold;
 
   &:hover {
     color: rgb(48, 65, 178);

@@ -32,11 +32,11 @@ const MovieDetails = () => {
   return (
     <>
       <Container>
-        <ButtonLink to={location.state?.from ?? '/'}>Go Back</ButtonLink>
         {isLoading && <Loader />}
         {error && <div>{error}</div>}
         {movie && (
           <>
+            <ButtonLink to={location.state?.from ?? '/'}>Go Back</ButtonLink>
             <MovieCard
               title={movie.title}
               overview={movie.overview}
