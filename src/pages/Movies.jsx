@@ -34,12 +34,12 @@ const Movies = () => {
 
   return (
     <>
-      {isLoading && <Loader />}
       {error && <div>{error}</div>}
       <Container>
         <SearchMovie search={setSearchParams} />
         <SearchList movies={arrayMovies} />
       </Container>
+      {isLoading && <Loader />}
     </>
   );
 };
