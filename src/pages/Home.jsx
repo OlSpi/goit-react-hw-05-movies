@@ -30,7 +30,7 @@ const Home = () => {
       {isLoading && <Loader />}
       {error && <div>{error}</div>}
 
-      {!isLoading && trends && (
+      {trends && (
         <Container>
           <h2>Trending today</h2>
 
